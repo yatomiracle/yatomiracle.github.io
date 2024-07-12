@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('Lionelofparis.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('bg.jpg'); /* URL к вашему изображению */
+    background-size: cover; /* Масштабирование изображения, чтобы покрыть весь экран */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    font-family: 'MyCustomFont', Arial, sans-serif;
+    font-size: 18px;
+    margin: 0; /* Удаляем отступы */
+}
+.container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS */
+button {
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 15px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 170px;
+  }
+  
+  button:hover {
+    background-color: #f7fafa;
+  }
+  
+  button:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+  }
+
+p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#reason {
+  max-width: 600px; /* Максимальная ширина для блока с текстом */
+  margin: 20px auto; /* Центрирование блока с текстом */
+  word-wrap: break-word; /* Перенос длинных слов */
+  text-align: center; /* Центрирование текста */
+}
